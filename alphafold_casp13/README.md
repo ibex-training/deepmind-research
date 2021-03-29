@@ -28,33 +28,6 @@ details.
 
 This code works on Linux, we don't support other operating systems.
 
-### Dependencies
-
-*   Python 3.6+.
-*   [Abseil 0.8.0](https://github.com/abseil/abseil-py)
-*   [Numpy 1.16](https://numpy.org)
-*   [Six 1.12](https://pypi.org/project/six/)
-*   [Setuptools 41.0.0](https://setuptools.readthedocs.io/en/latest/)
-*   [Sonnet 1.35](https://github.com/deepmind/sonnet)
-*   [TensorFlow 1.14](https://tensorflow.org). Not compatible with TensorFlow
-    2.0+.
-*   [TensorFlow Probability 0.7.0](https://www.tensorflow.org/probability)
-
-You can set up Python virtual environment (you might need to install the
-`python3-venv` package first) with all needed dependencies inside the forked
-`deepmind_research` repository using:
-
-```shell
-python3 -m venv alphafold_venv
-source alphafold_venv/bin/activate
-pip install wheel
-pip install -r alphafold_casp13/requirements.txt
-```
-
-Alternatively, you can just use the `run_eval.sh` script provided which will run
-these commands for you. See the section on running the system below for more
-details.
-
 ## Data
 
 While the code is licensed under the Apache 2.0 License, the AlphaFold weights

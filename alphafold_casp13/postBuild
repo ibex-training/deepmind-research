@@ -1,0 +1,2 @@
+jupyter labextension install --no-build jupyterlab-nvdashboard
+jupyter lab build

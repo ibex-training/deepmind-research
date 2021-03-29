@@ -1,0 +1,6 @@
+# ignore alphafold_casp13 cruft
+alphafold_casp13/env
+alphafold_casp13/alphafold-casp13-data
+alphafold_casp13/data
+alphafold_casp13/alphafold-casp13-weights
+alphafold_casp13/weights

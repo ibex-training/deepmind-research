@@ -1,0 +1,17 @@
+name: alphafold-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cudatoolkit=10.0
+  - cudnn=7.6
+  - cupti=10.0
+  - jupyterlab<3.0
+  - jupyterlab-nvdashboard
+  - wheel
+  - python=3.6
+  - pip
+  - pip:
+    - -r file:requirements.txt
